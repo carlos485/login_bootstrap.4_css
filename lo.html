@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="row mb-2">
+       <div class="col-4">
+        <div class="input-group mb-2 mr-sm-2">
+         <div class="input-group-prepend">
+          <div class="input-group-text">N° Socio</div>
+         </div>
+      
+         <input type="text" class="form-control"  placeholder="" v-model="padre.nombre"> 
+         
+        </div>
+       </div> 
+      
+       <div class="col-4">
+        <div class="input-group mb-2 mr-sm-2">
+         <div class="input-group-prepend">
+          <div class="input-group-text">N° Tarjeta</div>
+         </div>
+         
+         <input type="text" class="form-control"  placeholder="" v-model="padre.edad">
+        
+        </div>
+       </div>
+            
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-4">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Empresa:</div>
+            </div>
+            <select name="" id="" class="form-control">
+              <option value="">Opción</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">N° Teléfono 1:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">N° Teléfono 2:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-8">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Dirección:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Ind. Titular:</div>
+            </div>
+            <select name="" id="" class="form-control"></select>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-4">
+          <input type="radio" name="" id="">
+          <label for="">Obrero</label>
+          <input type="radio" name="" id="">
+          <label for="">Empleado</label>
+          <label for="">Ind.</label>
+         
+        </div>
+
+        <div class="col-4">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Estado:</div>
+            </div>
+            <select name="" id="" class="form-control">
+              <option value="">Activo</option>
+              <option value="">Inactivo</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <input type="radio" name="" id="">
+          <label for="">Oficina</label>
+          <input type="radio" name="" id="">
+          <label for="">Planilla</label>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">N° Brevete:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">N° Seguro:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">AFPs:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">T de Servicio:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Aportación Minima:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Ingreso Mensual:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Ocupación:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Feha de Ingreso:</div>
+            </div>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Solicitud Ingreso:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Observacion:</div>
+            </div>
+            <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Fecha Liquidación:</div>
+            </div>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Ind. Postal:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Condición:</div>
+            </div>
+            <select name="" id="" class="form-control">
+              <option value="">Estable</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">Ind. N° Seguro:</div>
+            </div>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+      </div>
+      
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
